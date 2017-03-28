@@ -1,7 +1,60 @@
-body {
-  color: blue;
+.body {
+  min-width: 320px;
+}
+/********************************************
+HEADER
+********************************************/
+.header {
+  background-color: #ffd24e;
+  padding: 23px 0 15px;
 }
 
-.content {
-  background: #e7e7e7;
+.headline {
+  margin: 0 0 6px;
+  font-size: 26px;
+}
+
+.subheadline {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/********************************************
+MAIN
+********************************************/
+.main {
+  padding-top: 35px;
+}
+
+.card {
+  margin-bottom: 30px;
+  border: 1px solid #dcdcdc;
+}
+
+.card_image {
+  display: block;
+  width: 100%;
+}
+
+.card_content {
+  height: 88px;
+  border-top: 1px solid #dcdcdc;
+  padding: 20px;
+}
+
+.card_name {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.card_description {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 640px) {
+  .card_content {
+    height: 106px;
+  }
 }
